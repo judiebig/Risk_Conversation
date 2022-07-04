@@ -5,7 +5,7 @@ This repo provides a reference implementation of **Risk-ConversationGraph** as d
 ![Conversation Graph](pics/graph_architecture.png)
 
 
-Submitted to InFORMS JOC for review
+Submitted to InFORMS JOC 2022 for review
 --------------------
 
 While the earnings transcript dataset cannot be publicly released due to the data provider's policy, we make our code implementation publicly available.
