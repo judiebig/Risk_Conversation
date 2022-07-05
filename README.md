@@ -42,7 +42,7 @@ After training, turn on --test to test model with best checkpoint. We select the
 * `assets`: contains `best_checkpoint.pth` and `lda_topic_rep.pkl`. Necessary for computing MSE, MAE, Spearsman's rho and Kendal's tau.
 * `data`: contains `data_2015.pkl`, `data_2016.pkl`, `data_2017.pkl`, `data_2018.pkl`.
 * `model`: contains `conversation_graph.py`. Our model's file. We use MLPs to construct the network.
-* `utils`: We implement attention, contrastive loss, and other functions here. The InfoNCE PyTorch implementation is referred from [Representation Learning with Contrastive Predictive Coding](https://github.com/RElbers/info-nce-pytorch).
+* `utils`: We implement attention and other functions here.
 
 ### Data structure
 We use pre-trained [Bert-based-un-cased](https://huggingface.co/bert-base-uncased) to generate sentence embeddings. Note that other pretrained language models such as [RoBERTa](https://huggingface.co/roberta-base), SentenceBert [Sentence Bert](https://www.sbert.net/), and [FinBert](https://huggingface.co/yiyanghkust/finbert-pretrain) can also be used as the text encoder, but we find the results are similar.
