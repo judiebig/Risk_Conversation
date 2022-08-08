@@ -41,8 +41,8 @@ After training, turn on --test to test model with best checkpoint. We select the
 
 ### Folder structure:
 * `assets`: contains `best_checkpoint.pth` and `lda_topic_rep.pkl`. Necessary for computing MSE, MAE, Spearsman's rho and Kendal's tau.
-* `data`: contains `data_2015.pkl`, `data_2016.pkl`, `data_2017.pkl`, `data_2018.pkl`.
-* `model`: contains `conversation_graph.py`. Our model's file. We use MLPs to construct the network.
+* `data`: contains `data_2015.pkl`, `data_2016.pkl`, `data_2017.pkl`, `data_2018.pkl`. Due to the limited size 
+* `model`: contains `conversation_graph.py`. Our model's file.
 * `utils`: We implement attention and other functions here.
 
 ### Data structure
