@@ -1,7 +1,7 @@
 # Risk Prediction with Conversation Graph
 
-This repo provides a reference implementation of **Risk-ConversationGraph** as described in the paper ``Reading Between the Lines: A Graph-based Financial
-Risk Prediction Approach'':
+This repo provides a reference implementation of **Risk-ConversationGraph** as described in the paper **Reading Between the Lines: A Graph-based Financial
+Risk Prediction Approach**:
 
 ![Conversation Graph](pics/graph_architecture.png)
 
