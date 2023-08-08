@@ -6,7 +6,7 @@ Risk Prediction Approach**:
 ![Conversation Graph](pics/graph_architecture.png)
 
 
-Submitted to InFORMS JOC 2022 for review
+Submitted to Information Systems Research for review
 --------------------
 
 While the earnings transcript dataset cannot be publicly released due to the data provider's policy, we make our code implementation publicly available.
